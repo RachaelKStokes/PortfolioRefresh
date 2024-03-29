@@ -1,6 +1,13 @@
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
+
 export default function Resume() {
   return (
-    <div>
+
+
+    <>
+      <Header  />
       <h1>Resume</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
@@ -14,6 +21,8 @@ export default function Resume() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
-    </div>
+
+      <Footer />
+    </>
   );
 }

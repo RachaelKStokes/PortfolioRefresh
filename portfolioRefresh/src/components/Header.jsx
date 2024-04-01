@@ -8,8 +8,8 @@ function Header() {
             font:"",
             fontSize:""
         }}>
-          <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-            <NavTabs  />
+          <nav className="pico-color-pink-500" >
+            
           </nav>
             
         </section></>

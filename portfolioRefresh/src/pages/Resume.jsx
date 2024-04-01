@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import Footer from '../components/Footer';
+
 
 
 export default function Resume() {
@@ -22,7 +22,7 @@ export default function Resume() {
         fames ac ante ipsum primis in faucibus.
       </p>
 
-      <Footer />
+     
     </>
   );
 }

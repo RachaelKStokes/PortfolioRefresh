@@ -4,19 +4,18 @@ import { AiFillGithub } from "react-icons/ai";
 
 function Footer() {
     return (
-        <footer style={{
-            text:"",
-            textAlign:"center",
-            testJustify:"auto",
-            fontSize:"",
-        }}>
+        // <Footer style={{
+        //     textAlign:"center",
+        //     testJustify:"auto",
+        //     fontSize:"",
+        // }}>
         
         <div>
             <a href="https://github.com/RachaelKStokes" target="blank">
-               <aiFillGithub  />
+               <AiFillGithub />
             </a>
         </div>
-        </footer>
+       
     )
 }
 

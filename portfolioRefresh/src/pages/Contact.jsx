@@ -7,15 +7,14 @@
   export default function Contact() {
   return (
     <>
-     <div> 
-    <div>
+     <div class="container-fluid"> 
 
    
-    <div class="col-md-20">
-      <h1 class="text-body-secondary" >Contact</h1>
+    <div>
+      <h1>Contact</h1>
     </div>
+    <div class>
       <ContactForm />
-    
     </div>
     </div>
     </>

@@ -5,24 +5,37 @@
 export default function Resume() {
   return (
 
-
     <>
-      
-      <h1>Resume</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
-
-     
+      <div>
+        <div class="container-fluid">
+          <div class="row">
+          <h1>Resume & Proficiencies</h1>
+          </div>
+          <p><a href="https://profile.indeed.com/p/rachaels-0j7f104">Click for my Resume</a></p>
+          <div  class="card text-white bg-secondary mb-3">
+            <div class="card-header">Front-end Proficiencies</div>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SCSS</li>
+              <li>Javascript</li>
+              <li>React</li>
+              <li>Bootstrap</li>
+            </ul>
+            </div>
+            <div  class="card text-white bg-secondary mb-3">
+            <div class="card-header">Back-end Proficiencies</div>
+            <ul>
+              <li>SQL</li>
+              <li>NoSQL</li>
+              <li>Express</li>
+              <li>Node</li>
+              <li>MongoDB</li>
+            </ul>
+            </div>
+        </div>
+      </div>
     </>
   );
 }
+

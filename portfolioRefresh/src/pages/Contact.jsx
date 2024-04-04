@@ -1,27 +1,23 @@
 
  import ContactForm from "../components/Contact";
- import Header from "../components/Header";
+
  
   
 
   export default function Contact() {
   return (
     <>
-     <section style={{
-      padding: '50px',
-      backgroundColor: "pink"
-     }}>
+     <div> 
     <div>
 
-    <Header />
-    
-      <h1>Contact</h1>
-      
-      <ContactForm />
-      
-      
+   
+    <div class="col-md-20">
+      <h1 class="text-body-secondary" >Contact</h1>
     </div>
-    </section>
+      <ContactForm />
+    
+    </div>
+    </div>
     </>
   );
 }
